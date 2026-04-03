@@ -1,4 +1,4 @@
-const mysql = require("mysql");
+const mysql = require('mysql2');
 
 // Railway connection (NO hardcoding fallback in production)
 const db = mysql.createConnection({
